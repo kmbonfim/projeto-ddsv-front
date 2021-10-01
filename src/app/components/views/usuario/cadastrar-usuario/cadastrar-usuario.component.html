@@ -1,0 +1,17 @@
+<div id="nome">
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" [(ngModel)]="nome" />
+</div>
+<div id="email">
+    <label for="email">Email:</label>
+    <input type="text" name="email" [(ngModel)]="email" />
+</div>
+<div id="senha">
+    <label for="senha">Senha:</label>
+    <input type="text" name="senha" [(ngModel)]="senha" />
+</div>
+<div id="cpf">
+    <label for="cpf">CPF:</label>
+    <input type="text" name="cpf" maxlength="11" [(ngModel)]="cpf" />
+</div>
+<button (click)="cadastrar()">Cadastrar</button>
